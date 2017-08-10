@@ -1,11 +1,11 @@
-package ch.erard22.akka
+package ch.erard22.akka.supervision
 
 import akka.actor._
-
-import scala.language.postfixOps
-import scala.io.StdIn
 import akka.event.Logging
 import com.typesafe.scalalogging.LazyLogging
+
+import scala.io.StdIn
+import scala.language.postfixOps
 
 object Application extends App with LazyLogging {
 

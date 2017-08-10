@@ -1,4 +1,4 @@
-package ch.erard22.akka
+package ch.erard22.akka.supervision
 
 import akka.actor.{Actor, ActorLogging, PoisonPill}
 

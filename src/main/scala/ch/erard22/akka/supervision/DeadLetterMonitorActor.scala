@@ -1,6 +1,6 @@
-package ch.erard22.akka
+package ch.erard22.akka.supervision
 
-import akka.actor.{DeadLetter, Actor}
+import akka.actor.{Actor, DeadLetter}
 
 class DeadLetterMonitorActor
   extends Actor
